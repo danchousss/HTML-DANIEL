@@ -1,0 +1,137 @@
+.section-1 {
+    height: 100vh; 
+    padding: 20px;
+    
+    background-image: url(../../Downloads/ozero-sary-chelek-5.webp); 
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+image-rendering: -webkit-optimize-contrast;
+image-rendering: crisp-edges; 
+border: none;
+display: flex; 
+}
+.section-4 {
+    height: 100vh; 
+    padding: 20px; 
+    background-color: #56c463; 
+    background-image:url(../../Downloads/sorry.webp); 
+    background-size: cover;
+
+}
+.section-3{
+    height: 100vh; 
+    padding: 20px; 
+    background-color: #4167a0; 
+}
+.section-2{
+    height: 100vh; 
+    padding: 20px; 
+    background-color: #a1aa41; 
+}
+.link1{
+    gap: 400px;
+    position: fixed;
+    color: #19b029;
+    text-decoration:none; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    width: 200px;
+    text-align: right;
+    
+
+}
+.link2{
+    gap: 400px;
+    position: fixed;
+    color: #122ea8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration : none; 
+    background-color: beige;
+    justify-content: space-between;
+    width: 100px;
+   
+    
+
+}
+.link3{
+    gap: 400px;
+    position: fixed;
+    color: #a91b1b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:none; 
+    background-color: beige;
+    justify-content: space-between;
+    width: 300px; 
+    text-align: right;
+
+ 
+
+}
+.link4{
+    gap: 300px;
+    position: fixed;
+
+    color: #c7ca16;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:none;
+    background-color: beige; 
+    display: block;
+    justify-content: space-between;
+    text-align: right;
+    }
+.header{
+    background-color: #56c463;
+    }
+.di{ 
+    
+  justify-content:center;
+  gap: 200px;; 
+}
+.muz{
+    size: 50px;
+}
+.text11{
+    gap: 100px;
+    text-align: center;
+    font-size: 30;
+}
+.text12{
+    gap: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(70, 118, 161);
+    background-color: aliceblue;
+}
+.text21{
+    gap: 100px;
+    text-align: center;
+}
+.text22{
+    gap: 100px;
+    text-align: center;
+}
+
+
+.text31{
+    gap: 100px;
+    text-align: center;
+}
+.text32{
+    gap: 100px;
+    text-align: center;
+}
+.text41{
+    gap: 100px;
+    text-align: center;
+}
+.text42{
+    gap: 100px;
+    text-align: center;
+}
+.text2{
+    gap: 100px;
+    text-align: center;
+    padding: 300px;
+    color: #c7ca16;
+}
