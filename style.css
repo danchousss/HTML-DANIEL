@@ -1,8 +1,12 @@
+
+html {
+    scroll-behavior: smooth;
+}
 .section-1 {
     height: 100vh; 
     padding: 20px;
     
-    background-image: url(../../Downloads/ozero-sary-chelek-5.webp); 
+    background-image: url(https://leisureandtravel.ru/wp-content/uploads/2021/06/2695d7bbbbc261e56e0da-scaled.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
 background-position: center;
@@ -15,7 +19,7 @@ display: flex;
     height: 100vh; 
     padding: 20px; 
     background-color: #56c463; 
-    background-image:url(../../Downloads/sorry.webp); 
+    background-image:url(https://bereg.kg/storage/escur/a743f2b4a006542bbf7ba.jpg); 
     background-size: cover;
 
 }
@@ -24,69 +28,111 @@ display: flex;
     padding: 20px; 
     background-color: #4167a0; 
 }
-.section-2{
-    height: 100vh; 
-    padding: 20px; 
-    background-color: #a1aa41; 
-}
-.link1{
-    gap: 400px;
-    position: fixed;
-    color: #19b029;
-    text-decoration:none; 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: beige;
-    width: 200px;
-    text-align: right;
-    
 
+.link1{
+    color: rgb(220, 111, 22);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background-color: beige;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin:  60px;
+    
 }
 .link2{
-    gap: 400px;
-    position: fixed;
-    color: #122ea8;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration : none; 
+    color:rgb(220, 111, 22);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
     background-color: beige;
-    justify-content: space-between;
-    width: 100px;
-   
-    
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin:  60px;
 
 }
 .link3{
-    gap: 400px;
-    position: fixed;
-    color: #a91b1b;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration:none; 
+    color:rgb(220, 111, 22);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
     background-color: beige;
-    justify-content: space-between;
-    width: 300px; 
-    text-align: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin:  60px;
 
  
 
 }
 .link4{
-    gap: 300px;
-    position: fixed;
-
-    color: #c7ca16;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration:none;
-    background-color: beige; 
-    display: block;
-    justify-content: space-between;
-    text-align: right;
+    color: rgb(220, 111, 22);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background-color: beige;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin:  60px;
     }
+    .services {
+        height: 100vh; 
+        padding: 20px;
+        background-image: url(https://static.tildacdn.com/tild3835-3834-4665-a634-643063633330/022.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges; 
+        border: none;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+    }
+      .tekst{
+        color: white;
+      }
+      .cards {
+        display: flex; 
+        justify-content: center; 
+        gap: 20px; 
+      }
+      
+      .card1 {
+        background-color: #ffffff; 
+        padding: 20px;
+        width: 250px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        
+      }
+      .card2 {
+        background-color: #ffffff; 
+        padding: 20px;
+        width: 250px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+      }
+      .card3 {
+        background-color: #ffffff; 
+        padding: 20px;
+        width: 250px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+      }
 .header{
     background-color: #56c463;
     }
 .di{ 
     
-  justify-content:center;
-  gap: 200px;; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #008000; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px ;
+    gap: 50px;
 }
 .muz{
     size: 50px;
@@ -100,26 +146,15 @@ display: flex;
     gap: 100px;
     text-align: center;
     font-size: 40px;
-    color: rgb(70, 118, 161);
-    background-color: aliceblue;
+    color: rgb(255, 255, 255);
+    
 }
-.text21{
+.text21, .text22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 100px;
-    text-align: center;
-}
-.text22{
-    gap: 100px;
-    text-align: center;
-}
-
-
-.text31{
-    gap: 100px;
-    text-align: center;
-}
-.text32{
-    gap: 100px;
-    text-align: center;
+    width: 100%; 
 }
 .text41{
     gap: 100px;
