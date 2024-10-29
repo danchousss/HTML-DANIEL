@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
-.section-1 {
+.section-3 {
     height: 100vh; 
     padding: 20px;
     
@@ -16,17 +16,29 @@ border: none;
 display: flex; 
 }
 .section-4 {
-    height: 100vh; 
-    padding: 20px; 
-    background-color: #56c463; 
-    background-image:url(https://bereg.kg/storage/escur/a743f2b4a006542bbf7ba.jpg); 
+    height: 100vh;
+    padding: 20px;
+    background-color: #56c463;
+    background-image: url(https://bereg.kg/storage/escur/a743f2b4a006542bbf7ba.jpg);
     background-size: cover;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-.section-3{
-    height: 100vh; 
-    padding: 20px; 
-    background-color: #4167a0; 
+
+.text11 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text12 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
 }
 
 .link1{
@@ -137,36 +149,52 @@ display: flex;
 .muz{
     size: 50px;
 }
-.text11{
-    gap: 100px;
-    text-align: center;
-    font-size: 30;
-}
-.text12{
-    gap: 100px;
-    text-align: center;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    
-}
-.text21, .text22 {
+
+
+.text41{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 100px;
-    width: 100%; 
-}
-.text41{
-    gap: 100px;
     text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
 }
 .text42{
-    gap: 100px;
-    text-align: center;
+    
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        color: #ffffff;
+        font-size: 20px; 
+        line-height: 1.5;
+        margin: 0; 
+        margin-top: 40px;
+    margin-bottom: 0;
+    
 }
 .text2{
     gap: 100px;
     text-align: center;
     padding: 300px;
     color: #c7ca16;
+}
+footer {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
